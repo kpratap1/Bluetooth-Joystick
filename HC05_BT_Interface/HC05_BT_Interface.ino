@@ -24,7 +24,7 @@ void loop() {
         theta = theta + 180; // reverts theta to its displayed value on the app
       }
       
-      // Your code here.
+      // Your code here. r and theta are ints that reflect the joystick position.
       // Code written here will execute: (1) Immediately when the joystick is pressed down, (2) Immediately when the joystick is released, (3) 10 times per second while the joystick is being pressed
 
     }

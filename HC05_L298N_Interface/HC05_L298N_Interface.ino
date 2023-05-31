@@ -45,10 +45,7 @@ void loop() {
         r = r - 126;  // reverts r to its displayed value on the app
         theta = theta + 180; // reverts theta to its displayed value on the app
       }
-      
-      // Your code here. You can call mL_Set(int dutyCycle) and mR_Set(int dutyCycle) to set the motor speeds and directions. You can also use r and theta in your code. They reflect the joystick position.
-      // Code written here will execute: (1) Immediately when the joystick is pressed down, (2) Immediately when the joystick is released, (3) 10 times per second while the joystick is being pressed
-
+      drive(r, theta);
     }
   }
 
@@ -119,4 +116,10 @@ void mL_Set(int dutyCycle) {
     mL_Back();
   }
   analogWrite(enB, abs(dutyCycle));
+}
+
+// Your code here. You can call mL_Set(int dutyCycle) and mR_Set(int dutyCycle) to set the motor speeds and directions. You can also use r and theta in your code. They reflect the joystick position.
+// Code written here will execute: (1) Immediately when the joystick is pressed down, (2) Immediately when the joystick is released, (3) 10 times per second while the joystick is being pressed
+void drive(int r, int theta) {
+  
 }

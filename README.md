@@ -18,3 +18,6 @@ A bare framework that includes all neccesary code to communicate with the Blueto
 L298N Arcade Drive Controller
 
 An example that uses the Bluetooth Joystick to control an RC car with dual motors. Uses the L298N motor controller and the HC05 Bluetooth module for communication.
+
+Additional Documentation:
+https://docs.google.com/document/d/1_MBIIXGEgNklQ3k7VyskfhKrz3-y9htE6QTffyouPCs/edit?usp=sharing
